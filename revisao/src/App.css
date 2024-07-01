@@ -1,0 +1,28 @@
+*{
+  text-align: center;
+}
+
+button{
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color: #ffffff;
+  background-color: aqua;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  cursor: pointer;
+}
+
+.content{
+  font-size: 25px;
+}
+
+input{
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
+}
+
+@media only screen and (max-device-width: 900px) {
+  .content { width:100%; }
+}
