@@ -4,8 +4,9 @@ export default function Home(){
         <header>
             <nav>
                 <ul>
-                    <li><Link to="/busca-cep"> Pesquisar CEP </Link></li>
-                    <li><Link to="/foto-dog"> Fotos Cachorro </Link></li>
+                    <Link to="/busca-cep"> Pesquisar CEP </Link>
+                    <p></p>
+                    <Link to="/foto-dog"> Fotos Cachorro </Link>
                 </ul>
             </nav>
         </header>
